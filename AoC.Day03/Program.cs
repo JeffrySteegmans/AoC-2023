@@ -3,7 +3,7 @@
 var input = (await File.ReadAllLinesAsync("input.txt")).ToList();
 var engineService = new EngineService(input);
 
-Console.WriteLine("Day 02");
+Console.WriteLine("Day 03");
 Console.WriteLine("------");
 
 var part1 = engineService.CalculatePartNumberSum();
